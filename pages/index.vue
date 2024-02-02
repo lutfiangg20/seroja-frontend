@@ -1,5 +1,8 @@
 <template>
-  <div>ini index</div>
+  <Header>
+    <navbar></navbar>
+    <sidebar></sidebar>
+  </Header>
 </template>
 
 <script lang="ts" setup></script>
