@@ -1,4 +1,3 @@
-import type { imgProps } from '@nuxt/image/dist/runtime/components/nuxt-img';
 <template>
   <div class="card card-secondary">
     <div class="row">
@@ -63,11 +62,9 @@ const barang = ref(props.data);
 const cariBarang = ref("");
 
 const cari = () => {
-  barang.value = barang.value.filter((item) => cariBarang.value);
-  console.log(barang.value);
+  barang.value = barang.value.filter((item) => item === cariBarang.value);
+  console.log(cariBarang.value);
 };
-
-onUpdated(() => {});
 </script>
 
 <style lang="scss" scoped></style>

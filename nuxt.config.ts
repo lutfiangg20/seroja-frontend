@@ -2,7 +2,6 @@
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
-
   css: [
     "admin-lte/dist/css/adminlte.min.css",
     "admin-lte/plugins/fontawesome-free/css/all.css",
