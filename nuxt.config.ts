@@ -18,6 +18,12 @@ export default defineNuxtConfig({
     // Add any other scripts you need
   ],
 
-  buildModules: ["@nuxt/image"],
-  modules: ["@nuxt/image"]
+  buildModules: ["@nuxt/image", "@nuxtjs/fontawesome"],
+  modules: ["@nuxt/image"],
+  fontawesome: {
+    component: "i", // Use <i> tag for FontAwesome icons
+    icons: {
+      solid: ["faHome", "faHeart"], // include only solid icons
+    },
+  },
 });
