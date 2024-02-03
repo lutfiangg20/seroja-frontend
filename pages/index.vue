@@ -1,8 +1,8 @@
 <template>
-  <Header>
+  <header>
     <navbar></navbar>
     <sidebar></sidebar>
-  </Header>
+  </header>
 </template>
 
 <script lang="ts" setup></script>

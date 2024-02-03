@@ -1,11 +1,11 @@
 <template>
-  <header>
-    <navbar></navbar>
-    <sidebar></sidebar>
-    <content>
+  <header-layout>
+    <navbar-layout></navbar-layout>
+    <sidebar-layout></sidebar-layout>
+    <content-layout>
       <slot></slot>
-    </content>
-  </header>
+    </content-layout>
+  </header-layout>
 </template>
 
 <script></script>

@@ -27,19 +27,13 @@
           <!-- Add icons to the links using the .nav-icon class
              with font-awesome or any other icon font library -->
           <li class="nav-item">
-            <a
-              wire:navigate
-              href="{{route('pembelian.ecer')}}"
-              class="nav-link {{ request()->routeIs('pembelian.ecer') || request()->routeIs('pembelian.penjual') || request()->routeIs('pembelian.bengkel') ? 'active' : '' }}"
-            >
+            <a href="" class="nav-link active">
               <i class="fa-solid fa-cart-shopping"></i>
               <p>Pembelian</p>
             </a>
           </li>
 
-          <li
-            class="nav-item {{ request()->routeIs('kategori.index') || request()->routeIs('barang.index') ? 'menu-open' : '' }}"
-          >
+          <li class="nav-item menu-open">
             <a href="#" class="nav-link">
               <i class="fa-solid fa-store"></i>
               <p>Toko<i class="right fas fa-angle-left"></i></p>

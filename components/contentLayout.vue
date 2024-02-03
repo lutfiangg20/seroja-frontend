@@ -5,15 +5,15 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">{{ $title }}</h1>
+            <h1 class="m-0">||</h1>
           </div>
           <!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item">
-                <a href="#">{{ $link1 }}</a>
+                <a href="#">||</a>
               </li>
-              <li class="breadcrumb-item active">{{ $link2 }}</li>
+              <li class="breadcrumb-item active">||</li>
             </ol>
           </div>
           <!-- /.col -->

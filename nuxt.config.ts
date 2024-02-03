@@ -5,6 +5,12 @@ export default defineNuxtConfig({
 
   css: [
     "admin-lte/dist/css/adminlte.min.css",
+    "admin-lte/plugins/fontawesome-free/css/all.css",
+    "admin-lte/plugins/fontawesome-free/css/brands.css",
+    "admin-lte/plugins/fontawesome-free/css/fontawesome.css",
+    "admin-lte/plugins/fontawesome-free/css/regular.css",
+    "admin-lte/plugins/fontawesome-free/css/solid.css",
+    "admin-lte/plugins/toastr/toastr.css",
     // Add any other styles you need
   ],
 
@@ -15,6 +21,7 @@ export default defineNuxtConfig({
       body: true,
     },
     { src: "admin-lte/dist/js/adminlte.min.js", body: true },
+    { src: "admin-lte/plugins/toastr/toastr.min.js", body: true },
     // Add any other scripts you need
   ],
 
